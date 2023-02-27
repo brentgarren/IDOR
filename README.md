@@ -30,3 +30,6 @@ The vulnerable endpoint you're targeting may not always be something you see in 
 
 
 Sometimes endpoints could have an unreferenced parameter that may have been of some use during development and got pushed to production. For example, you may notice a call to /user/details displaying your user information (authenticated through your session). But through an attack known as parameter mining, you discover a parameter called user_id that you can use to display other users' information, for example, /user/details?user_id=123.
+<br>Example of IDOR in Developer Tools<br>
+![idor example](https://user-images.githubusercontent.com/105601437/221478550-c64467f1-7d06-4d9d-8f96-47717a5359c5.png)
+
