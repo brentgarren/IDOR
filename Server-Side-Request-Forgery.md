@@ -4,8 +4,8 @@ Is a vulnerability that allows a malicious user to cause the webserver to make a
 
 # Types of SSRF
 
-There are two types of SSRF vulnerability:
-  First is a regular SSRF where data is returned to the attacker's screen. 
+There are two types of SSRF vulnerability:<br>
+  First is a regular SSRF where data is returned to the attacker's screen.<br> 
   Second is a Blind SSRF vulnerability where an SSRF occurs, but no information is returned to the attacker's screen.
 
 # What's the impact?
